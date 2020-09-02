@@ -1,0 +1,28 @@
+<태그 tag >
+
+<strong>~</strong>	~ 을 진하게 표시
+
+<u>~</u>		~ 을 밑줄 표시
+
+<h1>~</h1>		~ 제목을 나타내는 heading 
+		h1 ~ h6 까지 있음
+
+HTML New Line Tag
+<br>	vs	<p></p>
+
+1. br tag
+ 강제줄바꿈
+ 
+2. p tag
+ 하나의 문단 Paragraph 를 의미함
+
+p tag를 사용하는 것을 지향해야 한다.
+왜냐하면 p tag가 CSS 와 연동이 되어서 <p style = "width = 400px"> 등의 제한을 할 수 있기 때문.
+
+Img Tag
+
+<img src = "키움 역대 성적.png", width = 60%>
+위 예시 코드에는 2가지 속성
+src ( img 의 위치 )
+width ( 가로 크기 )
+속성에 대한 부분은 순서가 바뀌어도 무관 
