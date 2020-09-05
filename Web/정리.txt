@@ -1,5 +1,15 @@
 <태그 tag >
 
+<title>~</title>	~ 가 웹페이지의 제목이 됨. (본문의 제목)
+<meta charset = "utf-8">	한글이 깨지지 않도록
+<!doctype html>		html 문서임을 선언, 보통 문서의 최상단에 작성 ( 관용적, 헤더파일처럼 생각해도됨)
+
+<html>~</html>		~ 가 html의 코드 영역임을 표시 , 실직ㄹ적으로는 head 와 body tag를 감싸고 있다고 봐도 됨  
+ 		
+<head>~</head>		~ 가 본문과 달리 부가적인 내용(meta, title, style 태그)을 표시
+
+<body>~</body>		~ 가 본문의 내용(header, section, footer, nav, aricle 태그)
+ 
 <strong>~</strong>	~ 을 진하게 표시
 
 <u>~</u>		~ 을 밑줄 표시
