@@ -44,4 +44,4 @@ for image in images:
 driver.close()# 웹 스크롤링 다하면 브라우저를 닫음
 # 구글 이미지 검색에서 내가 검색하고자 하는 키워드(코드상 "키움 히어로즈" 검색)를 설정하고, 검색한 결과의 이미지들을 스크롤바를 쭉~ 내리면서 더이상 결과더보기 버튼이 없을때까지 내려감
 # 그 후 맨위 첫번째 이미지부터 순차적으로 다운로드, Images 라는 폴더 안에 1.jpg, 2.jpg......순으로 자동적으로 약 2초+a 만큼의 시간당 1장의 사진이 다운로드 됨
-# 위 코드를 실행하고 싶으면 ChromeDriver를 현재 Chrome version 에 맞게 설치하고 , pip install selenium , 그외에는 이 test.py를 터미널에서 실행시키면 된다. \
+# 위 코드를 실행하고 싶으면 ChromeDriver를 현재 Chrome version 에 맞게 설치하고 , pip install selenium , 그외에는 이 test.py를 터미널에서 실행시키면 된다.
