@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+header {position: absolute;}
+.main-menu ul {display: table; width: 100%; background: #1f1f1f; font-family: 'MVB-SolanoGothicMVB-Sb'; font-size: 25px;}
+.main-menu ul li {float: left; width: 20%; height: 270px; background: transparent; text-align: center; color: rgba(255, 255, 255, 0.6);}
+.main-menu ul li:nth-child(odd) {background: rgba(0, 0, 0, 0.2);}
+.main-menu ul li a {padding-top: 8px;}
+.main-menu ul li p {margin-top: 12px;}
+
+.kv .music-list a.melon {background: url('./../images/main/ico-melon.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.genie {background: url('./../images/main/ico-genie.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.bugs {background: url('./../images/main/ico-bugs.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.apple {background: url('./../images/main/ico-apple.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.itunes {background: url('./../images/main/ico-itunes.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.spotify {background: url('./../images/main/ico-spotify.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.amazon {background: url('./../images/main/ico-amazon.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.deezer {background: url('./../images/main/ico-deezer.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.pandora {background: url('./../images/main/ico-pandora.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.youtube {background: url('./../images/main/ico-youtube.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.kv .music-list a.flo {background: url('./../images/main/ico-flo.png') no-repeat 26.89% center; background-size: auto 53.73%;}
+.device .kv li .popup-inner .music-list a.melon:focus, .device .kv li .popup-inner .music-list a.melon:hover {background-image: url('./../images/main/ico-melon.png');}
+.device .kv li .popup-inner .music-list a.genie:focus, .device .kv li .popup-inner .music-list a.genie:hover {background-image: url('./../images/main/ico-genie.png');}
+.device .kv li .popup-inner .music-list a.bugs:focus, .device .kv li .popup-inner .music-list a.bugs:hover {background-image: url('./../images/main/ico-bugs.png');}
+.device .kv li .popup-inner .music-list a.apple:focus, .device .kv li .popup-inner .music-list a.apple:hover {background-image: url('./../images/main/ico-apple.png');}
+.device .kv li .popup-inner .music-list a.itunes:focus, .device .kv li .popup-inner .music-list a.itunes:hover {background-image: url('./../images/main/ico-itunes.png');}
+.device .kv li .popup-inner .music-list a.spotify:focus, .device .kv li .popup-inner .music-list a.spotify:hover {background-image: url('./../images/main/ico-spotify.png');}
+.device .kv li .popup-inner .music-list a.amazon:focus, .device .kv li .popup-inner .music-list a.amazon:hover {background-image: url('./../images/main/ico-amazon.png');}
+.device .kv li .popup-inner .music-list a.deezer:focus, .device .kv li .popup-inner .music-list a.deezer:hover {background-image: url('./../images/main/ico-deezer.png');}
+.device .kv li .popup-inner .music-list a.pandora:focus, .device .kv li .popup-inner .music-list a.pandora:hover {background-image: url('./../images/main/ico-pandora.png');}
+.device .kv li .popup-inner .music-list a.youtube:focus, .device .kv li .popup-inner .music-list a.youtube:hover {background-image: url('./../images/main/ico-youtube.png');}
+.device .kv li .popup-inner .music-list a.flo:focus, .device .kv li .popup-inner .music-list a.flo:hover {background-image: url('./../images/main/ico-flo.png');}
+.device .kv li .popup-inner .music-list li a:focus, .device .kv li .popup-inner .music-list li a:hover {color: #fff;}
+
+.main-popup {position: fixed; top: 0; left: 0; width: 100%; height: 100%;z-index:9999;overflow:hidden;}
+.main-popup.keep-all {word-break: keep-all;}
+.main-popup .popup-inner {position: relative; width: 650px; height: 650px; max-width: 100vmin; max-height: 100vmin; margin: 0 auto; padding: 0 130px; border-radius: 50vh; background: rgba(255, 255, 255, 0.9); text-align: center;}
+
+.main-popup .popup-inner .contents-desc {margin-bottom: 51px; font-family: 'NotoSansCJKkr-R'; font-size: 16px; line-height: 29px; letter-spacing: -0.05em;}
+.main-popup .popup-inner a {color:#1265ff}
+.main-popup .popup-inner a.btn_weply {padding: 6px 78px 8px; border-radius: 50vh; border: 2px solid rgba(18, 101, 255, 0.3); font-family: 'NotoSansCJKkr-B'; font-size: 15px; color: #1265ff; transition: all 0.3s;}
+.main-popup .popup-inner a.btn_weply:hover {border-color: #1265ff; background: #1265ff; color: #fff;}
+.device .main-popup .popup-inner a:hover {border-color: rgba(18, 101, 255, 0.3); background: none; color: #1265ff;}
+.main-popup .popup-inner .btn-close {position: absolute; top: 0; right: 0; width: 66px; height: 66px; border-radius: 50vh; background: rgba(0, 0, 0, 0.5) url('./../images/main/btn-close_popup.png') no-repeat center; background-size: 100% auto;}
+.main-popup .popup-inner .btn-close:hover {background-color: rgba(0, 0, 0, 1);}
+.device .main-popup .popup-inner .btn-close:hover {background-color: rgba(0, 0, 0, 0.5);}
+
+.jpn .main-popup .popup-inner .contents-desc {word-break:break-all;}
+.chn .main-popup .popup-inner .contents-desc {word-break:break-all;}
+.main-popup .popup-inner {padding:0 124px;}
+.kor .main-popup .popup-inner {padding:0 130px;}
+.jpn .main-popup .popup-inner {padding:0 119px;}
+.main-popup .popup-inner .contents{margin-bottom:18px}
+.kor .main-popup .popup-inner .contents{margin-bottom:16px}
+
+
+@media screen and (min-width: 769px) and (orientation: landscape) {
+
+body {overflow: hidden; max-width: 100%;}
+header {position: fixed;}
+footer {position: fixed; bottom: 0; left: 0; width: 100%;}
+.kv {height: calc(100vh - 60px);}
+.kv .kv-inner {height: 100%;}
+.kv .kv-inner > li {width: 100%; height: 100%;}
+.kv .kv-inner > li .contents-obj {width: 100%; height: 100%;}
+.kv .kv-inner > li .contents-obj img {opacity: 0; width: 100%; height: 100%; object-fit: cover;}
+nav {height: calc(100vh - 60px) !important;}
+
+}
+
+
+
+
+
+@media screen and (min-width: 769px) and (orientation: portrait) {
+
+body {overflow: hidden; max-width: 100%;}
+header {position: fixed;}
+footer {position: fixed; bottom: 0; left: 0; width: 100%;}
+.kv {height: calc(100vh - 60px);}
+.kv .kv-inner {height: 100%;}
+.kv .kv-inner > li {width: 100%; height: 100%;}
+.kv .kv-inner > li .contents-obj {width: 100%; height: 100%;}
+.kv .kv-inner > li .contents-obj img {opacity: 0; width: 100%; height: 100%; object-fit: cover;}
+nav {height: calc(100vh - 60px) !important;}
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+body {position: fixed; top: 0; left: 0; height: 100%;}
+.wrapper {height: 100%;}
+.wrapper-top {height: 209.17vw; min-height: 100vh;}
+.device .wrapper-top {overflow: hidden; height: 100%; min-height: auto;}
+.kv {height: 100%;}
+.kv-inner {height: 100%;}
+.kv-inner > li {height: 100%;}
+.kv .kv-inner > li .button-inner {position: absolute; top: 50%; left: 0; transform: translateY(-50%); height: auto; margin-top: 5.25vw;}
+.kv .kv-inner > li .button-inner .contents-obj img {position: absolute; bottom: 0; right: 0; width: 88.89vw !important; height: auto !important; box-shadow: 3px 3px 6px rgba(0, 0, 0, .2), 10px 10px 35px rgba(0, 0, 0, .2);}
+
+.kv .music-list a.melon {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.genie {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.bugs {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.apple {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.itunes {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.spotify {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.amazon {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.deezer {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.pandora {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.kv .music-list a.youtube {background-position: 26.63% 51%; background-size: auto 55.34%;}
+.device .kv li .popup-inner .music-list a.melon:focus, .device .kv li .popup-inner .music-list a.melon:hover, .kv .music-list a.melon:focus {background-image: url('./../images/main/ico-melon.png');}
+.device .kv li .popup-inner .music-list a.genie:focus, .device .kv li .popup-inner .music-list a.genie:hover, .kv .music-list a.genie:focus {background-image: url('./../images/main/ico-genie.png');}
+.device .kv li .popup-inner .music-list a.bugs:focus, .device .kv li .popup-inner .music-list a.bugs:hover, .kv .music-list a.bugs:focus {background-image: url('./../images/main/ico-bugs.png');}
+.device .kv li .popup-inner .music-list a.apple:focus, .device .kv li .popup-inner .music-list a.apple:hover, .kv .music-list a.apple:focus {background-image: url('./../images/main/ico-apple.png');}
+.device .kv li .popup-inner .music-list a.itunes:focus, .device .kv li .popup-inner .music-list a.itunes:hover, .kv .music-list a.itunes:focus {background-image: url('./../images/main/ico-itunes.png');}
+.device .kv li .popup-inner .music-list a.spotify:focus, .device .kv li .popup-inner .music-list a.spotify:hover, .kv .music-list a.spotify:focus {background-image: url('./../images/main/ico-spotify.png');}
+
+.main-popup .popup-inner {width:112.7778vw;height:112.7778vw;margin-left:-6.38889vw;max-width:113vw;max-height:113vw;padding:0 18.4444vw;}
+.main-popup .popup-inner .contents-desc {font-size:3.125vw;line-height:5.2083vw;}
+.main-popup .popup-inner a.btn_weply {font-size:2.916667vw;padding:1.6667vw 16.6667vw 1.8056vw;}
+.main-popup .popup-inner .contents {margin-bottom:3.1944vw}
+.main-popup .popup-inner .contents-desc {margin-bottom:6.3888vw;}
+.main-popup .popup-inner .btn-close {width:13.611vw;height:13.611vw;top:-14.1667vw;right:8.0556vw;}
+
+.main-popup .popup-inner {padding:0 15.5556vw;}
+.kor .main-popup .popup-inner {padding:0 18.4444vw;}
+.jpn .main-popup .popup-inner {padding:0 15.5556vw;}
+
+footer {position: absolute !important; bottom: 0; left: 0; width: 100%;}
+.device footer {transform: translateY(100%);}
+
+.kv .kv-inner > li.mo_center .contents {right: 51.45%; padding-left: 4.72vw; padding-right: 4.72vw;}
+.kv .kv-inner > li.mo_center .contents .contents-txt .contents-title {text-align: center;}
+.kv .kv-inner > li.mo_center .button-inner .contents-obj img {right: 50%; width: 89.82vw !important; margin-right: -44.96vw;}
+}
+
+
+
+
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+
+.device main {height: 169.17vw;}
+
+.kv .kv-inner > li .button-inner {margin-top: 0;}
+
+.device .wrapper-top {overflow-y: scroll;}
+
+.device footer {position: relative !important; transform: translateY(0);}
+
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+
+.wrapper-top {height: 669px;}
+.kv .kv-inner > li .button-inner {margin-top: 17px;}
+
+.kv .kv-inner > li.mo_center .contents {padding-left: 15px; padding-right:15px;}
+.kv .kv-inner > li.mo_center .button-inner .contents-obj img {width: 287px !important; margin-right: -144px;}
+
+.main-popup .popup-inner {width:361px;height:361px;margin-left:-20.48px;max-width:361px;max-height:361px;padding:0 59px;}
+.main-popup .popup-inner .contents-desc {font-size:10px;line-height:16.67px;}
+.main-popup .popup-inner a.btn_weply {font-size:9.34px;padding:5.34px 53.34px 5.78px;}
+.main-popup .popup-inner .contents {margin-bottom:10.22px}
+.main-popup .popup-inner .contents-desc {margin-bottom:20.44px;}
+.main-popup .popup-inner .btn-close {width:43.56px;height:43.56px;top:-45.33px;right:25.78px;}
+
+.main-popup .popup-inner {padding:0 50px;}
+.kor .main-popup .popup-inner {padding:0 59px;}
+.jpn .main-popup .popup-inner {padding:0 50px;}
+
+
+}
